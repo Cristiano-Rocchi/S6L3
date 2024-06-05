@@ -55,13 +55,21 @@ header img {
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: scale-color($color: $color-5, $lightness: 95%);
 }
 article {
   max-width: 30%;
   border-radius: 20%;
-  background-color: $color-2;
+  background-color: scale-color($color: $color-3, $lightness: 95%);
 }
+section div {
+  display: flex;
+  width: 40%;
+  background-color: scale-color($color: $color-3, $lightness: 95%);
+  border-radius: 10px;
+}
+
 %main-btn {
   border: 2px solid;
   border-radius: 5px;

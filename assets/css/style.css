@@ -110,13 +110,21 @@ header img {
 
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #f2f9fe;
 }
 
 article {
   max-width: 30%;
   border-radius: 20%;
-  background-color: rgb(255, 254, 254);
+  background-color: #f9ecfe;
+}
+
+section div {
+  display: flex;
+  width: 40%;
+  background-color: #f9ecfe;
+  border-radius: 10px;
 }
 
 .btn-3, .btn-2, .btn-1 {
