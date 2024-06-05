@@ -1,5 +1,9 @@
 $color-1: rgb(50, 49, 49);
 $color-2: rgb(224, 224, 224);
+$color-3: #4f036d;
+$color-4: #9f013b;
+$color-5: #167ac2;
+
 $verdana: Verdana, Geneva, Tahoma, sans-serif;
 $size-0: 0;
 $size-1: 1rem;
@@ -50,4 +54,28 @@ header img {
 section {
   display: flex;
   justify-content: space-between;
+}
+
+%main-btn {
+  border: 2px solid;
+  border-radius: 5px;
+  color: $color-2;
+  font-weight: 500;
+  margin: 0.5em;
+  font-family: $verdana;
+}
+.btn-1 {
+  @extend%main-btn;
+  background-color: scale-color($color: $color-4, $lightness: 30%);
+  border-color: scale-color($color: $color-4, $lightness: 10%);
+}
+.btn-2 {
+  @extend%main-btn;
+  background-color: scale-color($color: $color-3, $lightness: 50%);
+  border-color: scale-color($color: $color-3, $lightness: 10%);
+}
+.btn-3 {
+  @extend%main-btn;
+  background-color: scale-color($color: $color-5, $lightness: 10%);
+  border-color: blue;
 }
