@@ -85,6 +85,11 @@
   box-sizing: border-box;
 }
 
+main {
+  text-align: center;
+  color: rgb(50, 49, 49);
+}
+
 header {
   background-color: rgb(224, 224, 224);
   display: flex;
@@ -100,4 +105,9 @@ a {
 
 header img {
   border-radius: 50%;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

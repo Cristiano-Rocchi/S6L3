@@ -29,7 +29,10 @@ $size-5: 5rem;
 *::after {
   box-sizing: border-box;
 }
-
+main {
+  text-align: center;
+  color: $color-1;
+}
 header {
   background-color: $color-2;
   display: flex;
@@ -43,4 +46,8 @@ a {
 }
 header img {
   border-radius: 50%;
+}
+section {
+  display: flex;
+  justify-content: space-between;
 }
