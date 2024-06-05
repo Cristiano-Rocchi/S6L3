@@ -1,0 +1,45 @@
+$color-1: rgb(50, 49, 49);
+$color-2: rgb(224, 224, 224);
+$verdana: Verdana, Geneva, Tahoma, sans-serif;
+$size-1: 1rem;
+$size-2: 2rem;
+$size-3: 3rem;
+$size-4: 4rem;
+$size-5: 5rem;
+
+/* cicli */
+@for $i from 1 through 10 {
+  .width-#{$i} {
+    width: calc($i * 20px);
+  }
+}
+@for $i from 1 through 5 {
+  .px-#{$i} {
+    padding-block: calc($i * 0.5rem);
+  }
+}
+@for $i from 1 through 5 {
+  .py-#{$i} {
+    padding-inline: calc($i * 0.5rem);
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: $color-2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  font-family: $verdana;
+  color: $color-1;
+}
+header img {
+  border-radius: 50%;
+}

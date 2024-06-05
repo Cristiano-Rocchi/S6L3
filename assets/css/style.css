@@ -1,0 +1,103 @@
+/* cicli */
+.width-1 {
+  width: 20px;
+}
+
+.width-2 {
+  width: 40px;
+}
+
+.width-3 {
+  width: 60px;
+}
+
+.width-4 {
+  width: 80px;
+}
+
+.width-5 {
+  width: 100px;
+}
+
+.width-6 {
+  width: 120px;
+}
+
+.width-7 {
+  width: 140px;
+}
+
+.width-8 {
+  width: 160px;
+}
+
+.width-9 {
+  width: 180px;
+}
+
+.width-10 {
+  width: 200px;
+}
+
+.px-1 {
+  padding-block: 0.5rem;
+}
+
+.px-2 {
+  padding-block: 1rem;
+}
+
+.px-3 {
+  padding-block: 1.5rem;
+}
+
+.px-4 {
+  padding-block: 2rem;
+}
+
+.px-5 {
+  padding-block: 2.5rem;
+}
+
+.py-1 {
+  padding-inline: 0.5rem;
+}
+
+.py-2 {
+  padding-inline: 1rem;
+}
+
+.py-3 {
+  padding-inline: 1.5rem;
+}
+
+.py-4 {
+  padding-inline: 2rem;
+}
+
+.py-5 {
+  padding-inline: 2.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(50, 49, 49);
+}
+
+header img {
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
